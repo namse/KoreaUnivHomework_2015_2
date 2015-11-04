@@ -1,0 +1,1 @@
+cmd_/home/echo/download/modules/test.ko := arm-linux-gnueabi-ld -EL -r  -T /home/echo/download/linux-3.0/scripts/module-common.lds --build-id  -o /home/echo/download/modules/test.ko /home/echo/download/modules/test.o /home/echo/download/modules/test.mod.o
