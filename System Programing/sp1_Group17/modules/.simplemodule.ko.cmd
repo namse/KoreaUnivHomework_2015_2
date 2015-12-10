@@ -1,0 +1,1 @@
+cmd_/home/echo/download/modules/simplemodule.ko := arm-linux-gnueabi-ld -EL -r  -T /home/echo/download/linux-3.0/scripts/module-common.lds --build-id  -o /home/echo/download/modules/simplemodule.ko /home/echo/download/modules/simplemodule.o /home/echo/download/modules/simplemodule.mod.o
